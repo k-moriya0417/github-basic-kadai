@@ -1,0 +1,37 @@
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai> cd git_challenge
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git init    
+Initialized empty Git repository in C:/Users/free-/OneDrive/ドキュメント/SAMURAI_Kadai/git_challenge/.git/
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git add hello_world.txt
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git commit -m "1行目を追記"
+[main (root-commit) f2065e3] 1行目を追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git log
+commit f2065e30e7ff22b65028f06657d0c2e36a4499e0 (HEAD -> main)
+Author: k-moriya <ppp32961@gmail.com>
+Date:   Thu Nov 23 14:16:40 2023 +0900
+
+    1行目を追記
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git add hello_world.txt
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git commit -m "2行目を追記"
+[main 653d8a3] 2行目を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git log
+commit 653d8a3cc9d5d4df8fb5b69e654520a32f872f51 (HEAD -> main)
+Author: k-moriya <ppp32961@gmail.com>
+Date:   Thu Nov 23 14:18:19 2023 +0900
+
+    2行目を追記
+
+commit f2065e30e7ff22b65028f06657d0c2e36a4499e0
+Author: k-moriya <ppp32961@gmail.com>
+Date:   Thu Nov 23 14:16:40 2023 +0900
+
+    1行目を追記
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> git log --oneline
+653d8a3 (HEAD -> main) 2行目を追記
+f2065e3 1行目を追記
+PS C:\Users\free-\OneDrive\ドキュメント\SAMURAI_Kadai\git_challenge> 
